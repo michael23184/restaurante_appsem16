@@ -17,9 +17,10 @@ class AuthService:
                     identificacion=u["identificacion"],
                     nombre=u["nombre"],
                     correo=u["correo"],
-                    clave=u["clave"]
+                    clave=u["clave"],
+                    rol=u["rol"]   # ✅ ahora sí pasamos el rol
                 )
-                if usuario.correo == correo and usuario.validar_clave(clave):
+                if usuario.correo == correo and usuario.clave == clave:
                     return True, usuario
             return False, None
         except Exception as e:

@@ -3,30 +3,42 @@
         "identificacion": "U001",
         "nombre": "Michael",
         "correo": "michael@correo.com",
-        "clave": "1234"
+        "clave": "1234",
+        "rol": "Administrador"
     },
     {
         "identificacion": "U002",
         "nombre": "Ana",
         "correo": "ana@correo.com",
-        "clave": "4321"
+        "clave": "4321",
+        "rol": "Empleado"
     },
     {
         "identificacion": "U003",
         "nombre": "Carlos",
         "correo": "carlos@correo.com",
-        "clave": "abcd"
+        "clave": "abcd",
+        "rol": "Cliente"
     },
     {
         "identificacion": "U004",
         "nombre": "Laura",
         "correo": "laura@correo.com",
-        "clave": "pass2026"
+        "clave": "pass2026",
+        "rol": "Cliente"
     },
     {
         "identificacion": "U005",
         "nombre": "Docente",
         "correo": "docente@universidad.com",
-        "clave": "evaluar"
+        "clave": "docente",
+        "rol": "Administrador"
+    },
+    {
+        "identificacion": "U006",
+        "nombre": "Cielo",
+        "correo": "cielo@correo.com",
+        "clave": "pass123",
+        "rol": "Empleado"
     }
 ]
